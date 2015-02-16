@@ -10,7 +10,7 @@ After completing this assignment, you should...
 
 * Understand the structure and components of SQL SELECT statements.
 * Understand how AREL commands (.where, .order, .group, etc) map to the components of SQL statements.
-* Understand and be able to create database indices.
+* Be able to create large amounts of fake data.
 * Be able to write model methods which return data from complex queries.
 
 ## Deliverables
@@ -20,7 +20,7 @@ After completing this assignment, you should...
 
 ## Normal Mode
 
-First, create a migration to add the appropriate indices to the application's data structure.
+First, install the Faker gem and use it in your seed file to create at least 1000 records in each of the following tables: authors, surveys, questions, and answers.  You may need to put records in other tables as well to support these.
 
 Second, write SQL statements (in your gist) and model methods (in your model files) to accomplish the following:
 
@@ -32,8 +32,6 @@ Second, write SQL statements (in your gist) and model methods (in your model fil
 * Find all authors who have never created a survey
 
 Unless otherwise specified, return all columns in the requested table (e.g. authors).
-
-Third (and in conjunction with Second), you will want to make sufficient seed data to test if your queries are working.
 
 ## Hard Mode
 
